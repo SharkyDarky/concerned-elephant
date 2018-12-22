@@ -1,3 +1,17 @@
-h1 {
+body {
 	font-family:  Trebuchet MS, sans-serif
+	padding:10px;
+}
+
+#intropoint {
+	background-color: #66DDEEFF
+	padding:10px;
+	border: 10px;
+	text-align: center;
+	font-style: italic;
+	width: 300px;
+}
+
+* {
+	box-sizing: border-box;
 }
