@@ -3,10 +3,10 @@ body {
 }
 
 #intropoint {
-	background-color: #DDEEFF;
-	padding:10px;
-	border: 10px;
-	text-align: center;
+	background-color: #66DDEEFF;
+	padding:30px;
+	border: 30 solid px;
+	text-align: justify;
 	font-style: italic;
 	width: 300px;
 }
