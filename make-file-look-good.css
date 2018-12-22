@@ -1,6 +1,5 @@
 body {
 	font-family:  Trebuchet MS, sans-serif;
-	padding:10px;
 }
 
 #intropoint {
@@ -12,6 +11,3 @@ body {
 	width: 300px;
 }
 
-* {
-	box-sizing: border-box;
-}
