@@ -2,6 +2,11 @@
 	box-sizing:border-box;
 	margin:0;
 	padding:0;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
 }
 body {
 	font-family:  Trebuchet MS, sans-serif;
@@ -13,16 +18,15 @@ body {
 	padding:30px;
 	border: 30px;
 	font-style: italic;
-	width: 600px;
+	width: 300px;
 	transition: width 2s;
-	height: 600px;
+	height: 300px;
 	overflow:hidden;
 	color: #666
 }
 h1 {
 	background-image: url('heading.png');
-	width: 100%;
-	height: 100%;
+	background-size: 100%;
 }
 
 #firstItem:hover {
@@ -33,4 +37,6 @@ h1 {
 }
 #bottom {
 	overflow: auto;
+	list-style-type: upper-roman;
+	text-align:inherit; 
 }
