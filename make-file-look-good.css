@@ -13,7 +13,7 @@ body {
 	text-align: center;
 }
 
-#firstItem {
+p.item {
 	background-color: rgba(150,200,255,60%);
 	padding:30px;
 	border: 30px;
@@ -22,21 +22,17 @@ body {
 	transition: width 2s;
 	height: 300px;
 	overflow:hidden;
-	color: #666
+	color: #666;
 }
 h1 {
 	background-image: url('heading.png');
 	background-size: 100%;
 }
 
-#firstItem:hover {
+p.item:hover {
 	width: 1300px;
-	height: 950px;
+	height: 100%;
 	font-size: 150%;
-	color: #000
-}
-#bottom {
-	overflow: auto;
-	list-style-type: upper-roman;
-	text-align:inherit; 
+	color: #00F;
+	background-color:#FFFF00;
 }
